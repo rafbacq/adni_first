@@ -1,0 +1,39 @@
+# Data folders
+raw_downloads/
+outputs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+env.bak/
+venv.bak/
+
+# Logs and terminal outputs
+*.log
+pipeline_out*.txt
+*_out*.txt
+*_inspect.txt
+*.out
+
+# Data formats
+*.csv
+*.npz
+*.rda
+*.json
+*.xml
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
