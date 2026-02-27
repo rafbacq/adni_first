@@ -1,0 +1,80 @@
+﻿Loading merged CSV: C:\Users\tdc65\adni\outputs\adni_spine_adas13_multimodal.csv
+Loaded: 12569 rows, 19 cols
+Feature columns (6): ['ADAS13', 'TOTSCORE', 'DIAGNOSIS', 'DXNORM', 'has_mri', 'has_fdg_pet']
+
+Split 'train': 2108 subjects, 8810 rows
+
+Split 'val': 451 subjects, 1884 rows
+
+Split 'test': 453 subjects, 1875 rows
+
+Sequences written: 3011  (skipped: 1)
+Manifest: C:\Users\tdc65\adni\outputs\sequences\manifest.csv
+Feature columns: ['ADAS13', 'TOTSCORE', 'DIAGNOSIS', 'DXNORM', 'has_mri', 'has_fdg_pet']
+Done.
+============================================================
+ADNI Multimodal Pipeline
+============================================================
+
+[Step 1] Discovering data files ...
+  Discovered files:
+    [adas_rda] C:\Users\tdc65\adni\raw_downloads\ADNIMERGE2\ADNIMERGE2\build\data\ADAS.rda
+    [adsl_rda] C:\Users\tdc65\adni\raw_downloads\ADNIMERGE2\ADNIMERGE2\build\data\ADSL.rda
+    [dxsum_csv] C:\Users\tdc65\adni\raw_downloads\ADNIMERGE2\Tables_24Feb2026\All_Subjects_DXSUM_24Feb2026.csv
+    [key_mri_csv] C:\Users\tdc65\adni\raw_downloads\ADNIMERGE2\Tables_24Feb2026\All_Subjects_Key_MRI_24Feb2026.csv
+    [key_pet_csv] C:\Users\tdc65\adni\raw_downloads\ADNIMERGE2\Tables_24Feb2026\All_Subjects_Key_PET_24Feb2026.csv
+
+[Step 2] Building clinical spine from ADAS.rda ...
+  ADAS decoded: (12868, 17)
+  After dropping rows with ADAS13=NaN: (12566, 17)
+  WARNING: ADSL.rda PTID vector not found û demographics unavailable
+  Clinical spine: 12566 rows, 9 cols
+
+[Step 3] Merging DXSUM ...
+  DXSUM loaded: (16061, 41)
+  Fallback nearest-date matching for 55 unmatched rows ...
+  DXSUM merge: 12519/12569 rows with diagnosis
+
+[Step 4a] Building MRI metadata ...
+  Key_MRI: 91377 rows
+  MRI metadata total: 91377 rows
+
+[Step 4b] Building PET metadata (FDG filter) ...
+  Key_PET total: 10094, FDG-only: 2699
+  Top 20 unique descriptions after FDG filter:
+    Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res
+  FDG-PET metadata total: 2699 rows
+  Attached mri: 9478/12569 visits matched within ▒90 days
+  Attached fdg_pet: 2594/12569 visits matched within ▒90 days
+
+[Step 5a] Saved merged CSV: C:\Users\tdc65\adni\outputs\adni_spine_adas13_multimodal.csv  (12569 rows ╫ 19 cols)
+[Step 5b] Saved column summary: C:\Users\tdc65\adni\outputs\column_summary.md
+[Step 5c] Saved splits: C:\Users\tdc65\adni\outputs\splits.json  (train=2108, val=451, test=453 subjects)
+
+[Step 6] Building Neural CDE sequences ...
+
+============================================================
+[Step 7] SANITY CHECKS & REPORTING
+============================================================
+  Subjects:   3012
+  Visit rows: 12569
+  Visits/subject û min:1  median:3.0  max:19
+  ADAS13 missing: 0/12569 (0.0%)
+  ADAS13 range:   0.0û85.0,  mean=16.51
+
+  Imaging coverage:
+    MRI: 9478/12569 (75.4%) visits matched
+    MRI date diff û median:4d  mean:11d
+    FDG-PET: 2594/12569 (20.6%) visits matched
+    FDG-PET date diff û median:6d  mean:11d
+
+  Top 20 unique FDG-PET descriptions after filtering:
+    'Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res'
+
+============================================================
+Pipeline complete.
+  Merged CSV:   C:\Users\tdc65\adni\outputs\adni_spine_adas13_multimodal.csv
+  Col summary:  C:\Users\tdc65\adni\outputs\column_summary.md
+  Splits:       C:\Users\tdc65\adni\outputs\splits.json
+  Sequences:    C:\Users\tdc65\adni\outputs\sequences
+============================================================

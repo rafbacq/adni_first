@@ -1,0 +1,263 @@
+=== MRI_CSV (1 rows x 1 cols) ===
+File: c:\Users\tdc65\adni\raw_downloads\ADNIMERGE2\MRI_Data_T1Sagittal3d3Tes.csv
+Columns: ['https://ida.loni.usc.edu/download/files/ida1/0d38091b-fb32-493f-815a-c4356024ee71/MRI_Data_T1Sagittal3d3Tes.zip']
+DTypes: {'https://ida.loni.usc.edu/download/files/ida1/0d38091b-fb32-493f-815a-c4356024ee71/MRI_Data_T1Sagittal3d3Tes.zip': <StringDtype(na_value=nan)>}
+First row:
+https://ida.loni.usc.edu/download/files/ida1/0d38091b-fb32-493f-815a-c4356024ee71/MRI_Data_T1Sagittal3d3Tes.zip    https://ida.loni.usc.edu/download/files/ida2/f...
+
+=== DXSUM (16061 rows x 41 cols) ===
+File: c:\Users\tdc65\adni\raw_downloads\ADNIMERGE2\Tables_24Feb2026\All_Subjects_DXSUM_24Feb2026.csv
+Columns: ['PHASE', 'PTID', 'RID', 'VISCODE', 'VISCODE2', 'EXAMDATE', 'DIAGNOSIS', 'DXNORM', 'DXNODEP', 'DXMCI', 'DXMDES', 'DXMPTR1', 'DXMPTR2', 'DXMPTR3', 'DXMPTR4', 'DXMPTR5', 'DXMPTR6', 'DXMDUE', 'DXMOTHET', 'DXDSEV', 'DXDDUE', 'DXAD', 'DXAPP', 'DXAPROB', 'DXAPOSS', 'DXPARK', 'DXPDES', 'DXPCOG', 'DXPATYP', 'DXDEP', 'DXOTHDEM', 'DXODES', 'DXCONFID', 'ID', 'SITEID', 'USERDATE', 'USERDATE2', 'DD_CRF_VERSION_LABEL', 'LANGUAGE_CODE', 'HAS_QC_ERROR', 'update_stamp']
+DTypes: {'PHASE': <StringDtype(na_value=nan)>, 'PTID': <StringDtype(na_value=nan)>, 'RID': dtype('int64'), 'VISCODE': <StringDtype(na_value=nan)>, 'VISCODE2': <StringDtype(na_value=nan)>, 'EXAMDATE': <StringDtype(na_value=nan)>, 'DIAGNOSIS': dtype('float64'), 'DXNORM': dtype('float64'), 'DXNODEP': dtype('float64'), 'DXMCI': dtype('float64'), 'DXMDES': <StringDtype(na_value=nan)>, 'DXMPTR1': dtype('float64'), 'DXMPTR2': dtype('float64'), 'DXMPTR3': dtype('float64'), 'DXMPTR4': dtype('float64'), 'DXMPTR5': dtype('float64'), 'DXMPTR6': dtype('float64'), 'DXMDUE': dtype('float64'), 'DXMOTHET': <StringDtype(na_value=nan)>, 'DXDSEV': dtype('float64'), 'DXDDUE': dtype('float64'), 'DXAD': dtype('float64'), 'DXAPP': dtype('float64'), 'DXAPROB': <StringDtype(na_value=nan)>, 'DXAPOSS': <StringDtype(na_value=nan)>, 'DXPARK': dtype('float64'), 'DXPDES': dtype('float64'), 'DXPCOG': dtype('float64'), 'DXPATYP': dtype('float64'), 'DXDEP': dtype('float64'), 'DXOTHDEM': dtype('float64'), 'DXODES': dtype('float64'), 'DXCONFID': dtype('float64'), 'ID': dtype('int64'), 'SITEID': dtype('int64'), 'USERDATE': <StringDtype(na_value=nan)>, 'USERDATE2': <StringDtype(na_value=nan)>, 'DD_CRF_VERSION_LABEL': <StringDtype(na_value=nan)>, 'LANGUAGE_CODE': <StringDtype(na_value=nan)>, 'HAS_QC_ERROR': dtype('float64'), 'update_stamp': <StringDtype(na_value=nan)>}
+First row:
+PHASE                                 ADNI1
+PTID                             011_S_0002
+RID                                       2
+VISCODE                                  bl
+VISCODE2                                 bl
+EXAMDATE                         2005-09-29
+DIAGNOSIS                               1.0
+DXNORM                                  1.0
+DXNODEP                                -4.0
+DXMCI                                  -4.0
+DXMDES                                   -4
+DXMPTR1                                -4.0
+DXMPTR2                                -4.0
+DXMPTR3                                -4.0
+DXMPTR4                                -4.0
+DXMPTR5                                -4.0
+DXMPTR6                                -4.0
+DXMDUE                                 -4.0
+DXMOTHET                                 -4
+DXDSEV                                 -4.0
+DXDDUE                                  NaN
+DXAD                                   -4.0
+DXAPP                                  -4.0
+DXAPROB                                  -4
+DXAPOSS                                  -4
+DXPARK                                 -4.0
+DXPDES                                 -4.0
+DXPCOG                                 -4.0
+DXPATYP                                -4.0
+DXDEP                                   NaN
+DXOTHDEM                               -4.0
+DXODES                                 -4.0
+DXCONFID                                4.0
+ID                                        2
+SITEID                                  107
+USERDATE                         2005-10-01
+USERDATE2                               NaN
+DD_CRF_VERSION_LABEL                    NaN
+LANGUAGE_CODE                           NaN
+HAS_QC_ERROR                            NaN
+update_stamp            2005-10-01 00:00:00
+
+=== Key_MRI (91377 rows x 23 cols) ===
+File: c:\Users\tdc65\adni\raw_downloads\ADNIMERGE2\Tables_24Feb2026\All_Subjects_Key_MRI_24Feb2026.csv
+Columns: ['image_id', 'subject_id', 'image_visit', 'image_date', 'series_type', 'mri_protocol_phase', 'series_description', 'acceleration', 'acquisition_type', 'acquisition_plane', 'number_volumes', 'slices_per_volume', 'slice_thickness', 'scanner_manufacturer', 'scanner_model', 'software_version', 'magnetic_field_strength', 'receive_coil_name', 'study_instance_uid', 'series_instance_uid', 'loni_study', 'loni_series', 'loni_image']
+DTypes: {'image_id': dtype('int64'), 'subject_id': <StringDtype(na_value=nan)>, 'image_visit': <StringDtype(na_value=nan)>, 'image_date': <StringDtype(na_value=nan)>, 'series_type': <StringDtype(na_value=nan)>, 'mri_protocol_phase': <StringDtype(na_value=nan)>, 'series_description': <StringDtype(na_value=nan)>, 'acceleration': <StringDtype(na_value=nan)>, 'acquisition_type': <StringDtype(na_value=nan)>, 'acquisition_plane': <StringDtype(na_value=nan)>, 'number_volumes': dtype('int64'), 'slices_per_volume': dtype('int64'), 'slice_thickness': dtype('float64'), 'scanner_manufacturer': <StringDtype(na_value=nan)>, 'scanner_model': <StringDtype(na_value=nan)>, 'software_version': <StringDtype(na_value=nan)>, 'magnetic_field_strength': dtype('float64'), 'receive_coil_name': <StringDtype(na_value=nan)>, 'study_instance_uid': <StringDtype(na_value=nan)>, 'series_instance_uid': <StringDtype(na_value=nan)>, 'loni_study': dtype('int64'), 'loni_series': dtype('int64'), 'loni_image': dtype('int64')}
+First row:
+image_id                                                          28561
+subject_id                                                   002_S_0295
+image_visit                                                         m06
+image_date                                                   2006-11-02
+series_type                                                         T1w
+mri_protocol_phase                                                ADNI1
+series_description                                              MP-RAGE
+acceleration                                              Unaccelerated
+acquisition_type                                                     3D
+acquisition_plane                                              Sagittal
+number_volumes                                                        1
+slices_per_volume                                                   166
+slice_thickness                                                     1.2
+scanner_manufacturer                                                 GE
+scanner_model                                              SIGNA EXCITE
+software_version               12\LX\MR Software release:12.0_M4_0520.a
+magnetic_field_strength                                             1.5
+receive_coil_name                                              8HRBRAIN
+study_instance_uid         2.16.124.113543.6006.99.06736997866941757259
+series_instance_uid         2.16.124.113543.6006.99.6140400899638574745
+loni_study                                                         5726
+loni_series                                                       21856
+loni_image                                                        28561
+
+=== Key_PET (10094 rows x 8 cols) ===
+File: c:\Users\tdc65\adni\raw_downloads\ADNIMERGE2\Tables_24Feb2026\All_Subjects_Key_PET_24Feb2026.csv
+Columns: ['image_id', 'subject_id', 'image_visit', 'image_date', 'tau_pet', 'amyloid_pet', 'radiopharmaceutical', 'pet_description']
+DTypes: {'image_id': dtype('int64'), 'subject_id': <StringDtype(na_value=nan)>, 'image_visit': <StringDtype(na_value=nan)>, 'image_date': <StringDtype(na_value=nan)>, 'tau_pet': <StringDtype(na_value=nan)>, 'amyloid_pet': <StringDtype(na_value=nan)>, 'radiopharmaceutical': <StringDtype(na_value=nan)>, 'pet_description': <StringDtype(na_value=nan)>}
+First row:
+image_id                                                        1597990
+subject_id                                                   037_S_1421
+image_visit                                                         m12
+image_date                                                   2008-09-17
+tau_pet                                                             NaN
+amyloid_pet                                                         NaN
+radiopharmaceutical                                             18F-FDG
+pet_description        Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res
+PET description-like cols: ['radiopharmaceutical', 'pet_description']
+  Unique radiopharmaceutical: {'18F-AV45': 3558, '18F-FDG': 2699, '18F-AV1451': 2215, '18F-FBB': 1075, '18F-MK6240': 195, '11C-PIB': 176, '18F-NAV4694': 100, '18F-PI2620': 71}
+  Unique pet_description: {'AV45 Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res': 3356, 'Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res': 2704, 'AV1451 Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res': 2215, 'FBB Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res': 1011, 'MK6240 Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res': 195, 'AV45-Early Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res': 190, 'PIB Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res': 176, 'NAV4694 Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res': 100, 'PI2620 Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res': 71, 'FBB-Early Coreg, Avg, Std Img and Vox Siz, Uniform 6mm Res': 56, 'AV45-Early Coreg, Dyn, Std Img and Vox Siz, Uniform 6mm Res': 10, 'FBB-Early Coreg, Dyn, Std Img and Vox Siz, Uniform 6mm Res': 10}
+
+PET_IDA: 7416 XML files
+  Sample XML path: c:\Users\tdc65\adni\raw_downloads\ADNIMERGE2\Pet18FFDG1f18_IDA_Metadata\ADNI_002_S_0295_ADNI_Brain_PET__Raw_FDG_S111104_I239487.xml
+  XML content (first 4000 chars):
+<?xml version="1.0" encoding="UTF-8"?>
+<idaxs xmlns="http://ida.loni.usc.edu" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="/xsds/idaxs_2_0.xsd">
+<project xmlns="">
+ <projectIdentifier>ADNI</projectIdentifier>
+ <projectDescription>Alzheimer&#039;s Disease Neuroimaging Initiative</projectDescription>
+ <siteKey>002</siteKey>
+ <subject>
+  <subjectIdentifier>002_S_0295</subjectIdentifier>
+  <researchGroup>CN</researchGroup>
+  <subjectSex>M</subjectSex>
+  <subjectInfo item="APOE A1">3</subjectInfo>
+  <subjectInfo item="APOE A2">4</subjectInfo>
+  <visit>
+   <visitIdentifier>ADNI2 Initial Visit-Cont Pt</visitIdentifier>
+   <assessment name="MMSE">
+    <component name="MMSE Total Score">
+     <assessmentScore attribute="MMSCORE">28.0</assessmentScore>
+    </component>
+   </assessment>
+   <assessment name="GDSCALE">
+    <component name="GDS Total Score">
+     <assessmentScore attribute="GDTOTAL">1.0</assessmentScore>
+    </component>
+   </assessment>
+   <assessment name="CDR">
+    <component name="CDR Total Score">
+     <assessmentScore attribute="CDGLOBAL">0.0</assessmentScore>
+    </component>
+   </assessment>
+   <assessment name="Functional Assessment Questionnaire">
+    <component name="FAQ Total score">
+     <assessmentScore attribute="FAQTOTAL">0.0</assessmentScore>
+    </component>
+   </assessment>
+  </visit>
+  <study>
+   <studyIdentifier>34489</studyIdentifier>
+   <subjectAge>90.0493</subjectAge>
+   <ageQualifier>Y</ageQualifier>
+   <weightKg>73.0284</weightKg>
+   <postMortem>F</postMortem>
+   <series>
+    <seriesIdentifier>111104</seriesIdentifier>
+    <modality>PET</modality>
+    <dateAcquired>2011-06-09</dateAcquired>
+   </series>
+   <imagingProtocol>
+    <imageUID>239487</imageUID>
+    <description>ADNI Brain PET: Raw FDG</description>
+    <protocolTerm>
+     <protocol term="Manufacturer">Philips Medical Systems</protocol>
+     <protocol term="Mfg Model">GEMINI TF TOF 16</protocol>
+     <protocol term="Radiopharmaceutical">18F-FDG</protocol>
+     <protocol term="Number of Rows">128.0</protocol>
+     <protocol term="Number of Columns">128.0</protocol>
+     <protocol term="Number of Slices">90.0</protocol>
+     <protocol term="Frames">6.0</protocol>
+     <protocol term="Pixel Spacing X">2.0</protocol>
+     <protocol term="Pixel Spacing Y">2.0</protocol>
+     <protocol term="Slice Thickness">2.0</protocol>
+     <protocol term="Convolution Kernel"/>
+     <protocol term="Counts Source">EMISSION</protocol>
+     <protocol term="Randoms Correction">DLYD</protocol>
+     <protocol term="Attenuation Correction">CTAC-SG</protocol>
+     <protocol term="Decay Correction">START</protocol>
+     <protocol term="Reconstruction">LOR-RAMLA</protocol>
+     <protocol term="Scatter Correction">SS-SIMUL</protocol>
+     <protocol term="Radioisotope">F-18</protocol>
+    </protocolTerm>
+   </imagingProtocol>
+  </study>
+ </subject>
+</project>
+</idaxs>
+
+MRI_IDA: 29160 XML files
+  Sample XML path: c:\Users\tdc65\adni\raw_downloads\ADNIMERGE2\MRI_DATA_T1Sagittal3d3test_IDA_Metadata\ADNI_002_S_0295_MPRAGE_S110476_I238627.xml
+  XML content (first 4000 chars):
+<?xml version="1.0" encoding="UTF-8"?>
+<idaxs xmlns="http://ida.loni.usc.edu" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="/xsds/idaxs_2_0.xsd">
+<project xmlns="">
+ <projectIdentifier>ADNI</projectIdentifier>
+ <projectDescription>Alzheimer&#039;s Disease Neuroimaging Initiative</projectDescription>
+ <siteKey>002</siteKey>
+ <subject>
+  <subjectIdentifier>002_S_0295</subjectIdentifier>
+  <researchGroup>CN</researchGroup>
+  <subjectSex>M</subjectSex>
+  <subjectInfo item="APOE A1">3</subjectInfo>
+  <subjectInfo item="APOE A2">4</subjectInfo>
+  <visit>
+   <visitIdentifier>ADNI2 Initial Visit-Cont Pt</visitIdentifier>
+   <assessment name="MMSE">
+    <component name="MMSE Total Score">
+     <assessmentScore attribute="MMSCORE">28.0</assessmentScore>
+    </component>
+   </assessment>
+   <assessment name="GDSCALE">
+    <component name="GDS Total Score">
+     <assessmentScore attribute="GDTOTAL">1.0</assessmentScore>
+    </component>
+   </assessment>
+   <assessment name="CDR">
+    <component name="CDR Total Score">
+     <assessmentScore attribute="CDGLOBAL">0.0</assessmentScore>
+    </component>
+   </assessment>
+   <assessment name="Functional Assessment Questionnaire">
+    <component name="FAQ Total score">
+     <assessmentScore attribute="FAQTOTAL">0.0</assessmentScore>
+    </component>
+   </assessment>
+  </visit>
+  <study>
+   <studyIdentifier>34310</studyIdentifier>
+   <subjectAge>90.0301</subjectAge>
+   <ageQualifier>Y</ageQualifier>
+   <weightKg>73.0284</weightKg>
+   <postMortem>F</postMortem>
+   <series>
+    <seriesIdentifier>110476</seriesIdentifier>
+    <modality>MRI</modality>
+    <dateAcquired>2011-06-02</dateAcquired>
+   </series>
+   <imagingProtocol>
+    <imageUID>238627</imageUID>
+    <description>MPRAGE</description>
+    <protocolTerm>
+     <protocol term="Acquisition Type">3D</protocol>
+     <protocol term="Weighting">T1</protocol>
+     <protocol term="Pulse Sequence">GR</protocol>
+     <protocol term="Slice Thickness">1.2</protocol>
+     <protocol term="TE">3.16</protocol>
+     <protocol term="TR">6.8054</protocol>
+     <protocol term="TI">0.0</protocol>
+     <protocol term="Coil">SENSE-Head-8</protocol>
+     <protocol term="Flip Angle">9.0</protocol>
+     <protocol term="Acquisition Plane">SAGITTAL</protocol>
+     <protocol term="Matrix X">256.0</protocol>
+     <protocol term="Matrix Y">256.0</protocol>
+     <protocol term="Matrix Z">170.0</protocol>
+     <protocol term="Pixel Spacing X">1.0</protocol>
+     <protocol term="Pixel Spacing Y">1.0</protocol>
+     <protocol term="Manufacturer">Philips Medical Systems</protocol>
+     <protocol term="Mfg Model">Intera</protocol>
+     <protocol term="Field Strength">3.0</protocol>
+    </protocolTerm>
+   </imagingProtocol>
+  </study>
+ </subject>
+</project>
+</idaxs>
+
+RDA files with ADNIMERGE in name: []
+Total RDA files: 217
+Some RDA names: ['ADAE.rda', 'ADAS.rda', 'ADDCOMM.rda', 'ADI.rda', 'ADNI2_ECG.rda', 'ADNI2_OTELGTAU.rda', 'ADNI2_VISITID.rda', 'ADQS.rda', 'ADRS.rda', 'ADSL.rda', 'ADSXLIST.rda', 'ADVERSE.rda', 'AE.rda', 'ALIQUOT_COUNT.rda', 'AMAS.rda', 'AMNART.rda', 'AMYDISC.rda', 'AMYMETA.rda', 'AMYQC.rda', 'AMYREAD.rda', 'ANTIAMYTX.rda', 'APOERES.rda', 'ARM.rda', 'AV45FOLLOW.rda', 'AV45META.rda', 'AV45QC.rda', 'AV45VITALS.rda', 'BACKMEDS.rda', 'BAIMRINMRC.rda', 'BAINMRC.rda']
