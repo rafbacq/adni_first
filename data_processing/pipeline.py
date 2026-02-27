@@ -25,7 +25,7 @@ warnings.filterwarnings("ignore", category=pd.errors.DtypeWarning)
 # Paths
 # ──────────────────────────────────────────────────────────────────
 REPO_ROOT    = Path(__file__).resolve().parent.parent   # c:\Users\tdc65\adni\..\..
-ADNI_DIR     = Path(__file__).resolve().parent           # c:\Users\tdc65\adni
+ADNI_DIR     = Path(__file__).resolve().parent.parent    # c:\Users\tdc65\adni
 RAW_BASE     = ADNI_DIR / "raw_downloads" / "ADNIMERGE2"
 RDA_DIR      = RAW_BASE / "ADNIMERGE2" / "build" / "data"
 TABLES_DIR   = RAW_BASE / "Tables_24Feb2026"
