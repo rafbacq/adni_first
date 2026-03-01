@@ -1,0 +1,97 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            0wqr1ou8403o6yfm9ws3m5gxdqsstzgl:
+                args:
+                    - --model
+                    - baseline
+                    - --epochs
+                    - "3"
+                    - --subset
+                    - "30"
+                    - --batch_size
+                    - "8"
+                codePath: wandb_train.py
+                codePathLocal: wandb_train.py
+                cpu_count: 16
+                cpu_count_logical: 24
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "2047433764864"
+                        used: "1492898045952"
+                email: tristan.carter66@gmail.com
+                executable: C:\Users\tdc65\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe
+                git:
+                    commit: 5fda420416379faa45d97a331264ec16fcdb00fe
+                    remote: https://github.com/rafbacq/adni_first.git
+                gpu: NVIDIA GeForce RTX 4070 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 7680
+                      memoryTotal: "12878610432"
+                      name: NVIDIA GeForce RTX 4070 Ti
+                      uuid: GPU-4e830041-22eb-8c91-c6ae-a3522e5a5b24
+                host: AUDS-G51SWX3
+                memory:
+                    total: "68424429568"
+                os: Windows-11-10.0.26100-SP0
+                program: C:\Users\tdc65\adni\wandb_train.py
+                python: CPython 3.13.12
+                root: C:\Users\tdc65\adni
+                startedAt: "2026-03-01T02:19:40.514917Z"
+                writerId: 0wqr1ou8403o6yfm9ws3m5gxdqsstzgl
+        m: []
+        python_version: 3.13.12
+        t:
+            "1":
+                - 12
+            "2":
+                - 12
+            "3":
+                - 2
+                - 13
+                - 15
+                - 16
+                - 61
+                - 62
+            "4": 3.13.12
+            "5": 0.25.0
+            "8":
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64
+batch_size:
+    value: 8
+embed_dim:
+    value: 32
+epochs:
+    value: 3
+feature_dim:
+    value: 6
+grad_clip_norm:
+    value: 1
+hidden_dim:
+    value: 64
+learning_rate:
+    value: 0.001
+model_type:
+    value: baseline
+n_params:
+    value: 85185
+n_train_batches:
+    value: 4
+patience:
+    value: 20
+seed:
+    value: 42
+subset:
+    value: 30
+vf_width:
+    value: 128
+warmup_epochs:
+    value: 5
+weight_decay:
+    value: 0.0001

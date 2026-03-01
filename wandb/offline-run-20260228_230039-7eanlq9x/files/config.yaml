@@ -1,0 +1,126 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.13.12
+    cli_version: 0.25.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1772337641
+    t:
+      1:
+      - 12
+      2:
+      - 12
+      3:
+      - 4
+      - 13
+      - 15
+      - 16
+      - 42
+      - 61
+      4: 3.13.12
+      5: 0.25.0
+      8:
+      - 3
+      13: windows-amd64
+    e:
+      q6auld4df36vsvrizogh32tu4kuhsm9k:
+        os: Windows-11-10.0.26100-SP0
+        python: CPython 3.13.12
+        started_at: '2026-03-01T04:00:39.512482Z'
+        args:
+        - --model
+        - baseline
+        - --epochs
+        - '300'
+        - --batch_size
+        - '32'
+        - --hidden_dim
+        - '128'
+        - --vf_width
+        - '256'
+        - --lr
+        - 5e-4
+        - --weight_decay
+        - 1e-3
+        - --patience
+        - '50'
+        - --warmup_epochs
+        - '10'
+        program: C:\Users\tdc65\adni\wandb_train.py
+        code_path: wandb_train.py
+        code_path_local: wandb_train.py
+        git:
+          remote_url: https://github.com/rafbacq/adni_first.git
+          commit: 5fda420416379faa45d97a331264ec16fcdb00fe
+        root: C:\Users\tdc65\adni
+        host: AUDS-G51SWX3
+        executable: C:\Users\tdc65\adni\env\Scripts\python.exe
+        cpu_count: 16
+        cpu_count_logical: 24
+        gpu_type: NVIDIA GeForce RTX 4070 Ti
+        gpu_count: 1
+        disk:
+          /:
+            total: '2047433764864'
+            used: '1494715322368'
+        memory:
+          total: '68424429568'
+        gpu_nvidia:
+        - name: NVIDIA GeForce RTX 4070 Ti
+          memory_total: '12878610432'
+          cuda_cores: 7680
+          architecture: Ada
+          uuid: GPU-4e830041-22eb-8c91-c6ae-a3522e5a5b24
+        cuda_version: '13.0'
+        writer_id: q6auld4df36vsvrizogh32tu4kuhsm9k
+model_type:
+  desc: null
+  value: baseline
+hidden_dim:
+  desc: null
+  value: 128
+embed_dim:
+  desc: null
+  value: 32
+vf_width:
+  desc: null
+  value: 256
+learning_rate:
+  desc: null
+  value: 0.0005
+weight_decay:
+  desc: null
+  value: 0.001
+batch_size:
+  desc: null
+  value: 32
+epochs:
+  desc: null
+  value: 300
+warmup_epochs:
+  desc: null
+  value: 10
+patience:
+  desc: null
+  value: 50
+grad_clip_norm:
+  desc: null
+  value: 1.0
+seed:
+  desc: null
+  value: 42
+subset:
+  desc: null
+  value: 0
+feature_dim:
+  desc: null
+  value: 6
+n_train_batches:
+  desc: null
+  value: 50
+n_params:
+  desc: null
+  value: 334145
